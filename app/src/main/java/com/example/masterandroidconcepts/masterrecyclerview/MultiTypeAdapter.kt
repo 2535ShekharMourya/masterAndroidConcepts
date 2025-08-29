@@ -15,6 +15,7 @@ class MultiTypeAdapter(private val items: List<ListItem>) : RecyclerView.Adapter
         private const val TYPE_CONTACT = 4
         private const val TYPE_EMAIL = 5
         private const val TYPE_MUSIC = 6
+        private const val TYPE_DANCE = 6
     }
 
 
