@@ -5,16 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MasterRecyclerviewAndViewpager.RVBaseActivity">
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/m_recyclerview"
+    tools:context=".masterNetworking.httpClientLibraries.retrofit.ui.JsonPlaceholderActivity">
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/jsonPlaceholderFragmentContainer"
         android:layout_width="match_parent"
-        android:layout_margin="16dp"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent">
+
+    </androidx.fragment.app.FragmentContainerView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

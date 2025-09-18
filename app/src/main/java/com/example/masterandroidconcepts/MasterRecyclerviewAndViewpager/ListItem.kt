@@ -1,4 +1,4 @@
-package com.example.masterandroidconcepts.masterrecyclerview
+package com.example.masterandroidconcepts.MasterRecyclerviewAndViewpager
 
 sealed class ListItem {
     data class TextItem(val text: String) : ListItem()

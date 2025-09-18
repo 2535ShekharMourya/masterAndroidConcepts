@@ -1,10 +1,9 @@
-package com.example.masterandroidconcepts.masterrecyclerview
+package com.example.masterandroidconcepts.MasterRecyclerviewAndViewpager
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.example.masterandroidconcepts.R
 
 class TextViewHolder(view: View) : RecyclerView.ViewHolder(view) {

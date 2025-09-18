@@ -1,4 +1,4 @@
-package com.example.masterandroidconcepts.masterrecyclerview
+package com.example.masterandroidconcepts.MasterRecyclerviewAndViewpager
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
